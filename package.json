@@ -1,0 +1,15 @@
+{
+  "name": "react-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=3001 node server/bin/www | npm start --prefix client/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

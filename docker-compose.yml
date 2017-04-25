@@ -1,0 +1,10 @@
+version: '2'
+services:
+    backend-service:
+        container_name: backend-service
+        build: ./server
+        command: node_modules/.bin/nodemon -L app.js
+        volumes:
+            - "./server:/app_src"
+        ports:
+            - "3000:3000"
